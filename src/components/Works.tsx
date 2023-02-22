@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import sistemaDeVideoconferencia from '../../public/sistema-de-videoconferencia.png'
 
 export default function Works() {
     return (
@@ -13,7 +14,7 @@ export default function Works() {
                 <Grid container spacing={8} sx={{ alignItems: 'center' }}>
                     <Grid item xs={12} md={6}>
                         <Box component={Link} href="https://sivic.vercel.app/" target="_blank">
-                            <Box component="img" sx={{ width: '100%', boxShadow: 3, borderRadius: 1 }} alt="sistema de videoconferencia" src="/public/sistema-de-videoconferencia.png" />
+                            <Box component="img" sx={{ width: '100%', boxShadow: 3, borderRadius: 1 }} alt="sistema de videoconferencia" src={sistemaDeVideoconferencia} />
                         </Box>
                     </Grid>
                     <Grid item xs={12} md={6}>
