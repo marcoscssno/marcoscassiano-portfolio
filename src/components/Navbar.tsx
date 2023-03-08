@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import { PageMenuItem } from '../types';
+import logo from '../assets/logo.svg'
 
 
 export default function Navbar() {
@@ -66,9 +67,9 @@ export default function Navbar() {
                         ))}
                     </Menu>
                 </Box>
-                <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-                    Marcos Cassiano
-                </Typography>
+                <Box component="div" sx={{ flexGrow: 1 }}>
+                    <Box component="img" src={logo} alt="Logo" sx={{ height: '40px' }} />
+                </Box>
                 <Box component="nav" sx={{ display: { xs: 'none', md: 'flex' } }}>
                     {pages.map((page: PageMenuItem) => {
                         const { name, path } = page;
