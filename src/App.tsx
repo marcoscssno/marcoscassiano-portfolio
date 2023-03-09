@@ -22,13 +22,14 @@ const theme = createTheme({
 
 function App() {
   return (
+    <ThemeProvider theme={theme}>
       <Front />
       <About />
       <Works />
       <Education />
       <Experience />
       <Footer />
-    </>
+    </ThemeProvider>
   )
 }
 

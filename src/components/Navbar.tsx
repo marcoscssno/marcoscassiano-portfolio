@@ -86,7 +86,7 @@ export default function Navbar() {
                         )
                     })}
                 </Box>
-                <Button component={Link} href="https://www.dropbox.com/s/kteqh7786lpcwus/Curriculo_Marcos_Cassiano_Melo_Feijao.pdf?dl=0" target="_blank" variant="text" sx={{ my: 1, mx: 1.5 }}>
+                <Button color="secondary" component={Link} href="https://www.dropbox.com/s/kteqh7786lpcwus/Curriculo_Marcos_Cassiano_Melo_Feijao.pdf?dl=0" target="_blank" variant="contained" sx={{ my: 1, mx: 1.5 }}>
                     Currículo
                 </Button>
             </Toolbar>
