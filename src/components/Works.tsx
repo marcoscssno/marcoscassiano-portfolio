@@ -41,6 +41,7 @@ export default function Works() {
                             <Chip label="Redux" />
                             <Chip label="MongoDB" />
                             <Chip label="Socket.io" />
+                            <Chip label="Docker" />
                         </Stack>
                         <Button sx={{ mr: 2, mt: 2 }} variant="contained" size="small" component={Link} href="https://sivic.vercel.app/" target="_blank" endIcon={<PublicIcon />}>
                             Ver Demo
