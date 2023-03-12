@@ -16,13 +16,16 @@ export default function About() {
                             SOBRE MIM
                         </Typography>
                         <Typography component="p" variant="body1" sx={{ mt: 1 }}>
-                            Trabalhando como Técnico de Suporte, observei usuários trabalhando exaustivamente com <Box component="span" sx={{ color: "#00a396" }}>planilhas</Box> e <Box component="span" sx={{ color: "#00a396" }}>documentos de texto</Box> e então resolvi criar algo que tornasse o trabalho <Box component="span" sx={{ color: "#00a396" }}>menos cansativo</Box> e <Box component="span" sx={{ color: "#00a396" }}>mais produtivo</Box>. A partir daí, nasceu uma paixão por <Box component="span" sx={{ color: "#00a396" }}>soluções em software</Box>.
+                        Sou formado em <Box component="span" sx={{ color: "#00a396" }}>Análise e Desenvolvimento de Sistemas</Box> pela Faculdade Pitágoras.
                         </Typography>
                         <Typography component="p" variant="body1" sx={{ mt: 1 }}>
                             Moro em Groaíras, Ceará, Brasil. Sou casado e tenho dois filhos (um casal).
                         </Typography>
                         <Typography component="p" variant="body1" sx={{ mt: 1 }}>
                             Quando não estou trabalhando, gosto de aprender novos idiomas.
+                        </Typography>
+                        <Typography component="p" variant="body1" sx={{ mt: 1 }}>
+                            Durante meu trabalho como Técnico de Suporte, decidi estudar e criar soluções em software para resolver problemas de registro e gerenciamento de dados, melhorando o trabalho e a produtividade dos usuários.
                         </Typography>
                     </Grid>
                     <Grid item container justifyContent={{ md: 'end', xs: 'center' }} xs={12} md={6} lg={4} sx={{ my: { md: 0, xs: 3 } }}>
