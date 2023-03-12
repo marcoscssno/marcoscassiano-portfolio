@@ -45,7 +45,7 @@ export default function Front() {
                         color="grey.800"
                         sx={{ my: 1 }}
                     >
-                        Gosto de criar soluções que facilitam o trabalho.
+                        Gosto de criar soluções em software que trazem resultado ao seu trabalho.
                     </Typography>
                     <Typography
                         component="p"
@@ -54,11 +54,11 @@ export default function Front() {
                         sx={{ my: 1 }}
                     >
                         Sou um <Box component="span" sx={{ color: "text.secondary" }}>Desenvolvedor Full Stack Node.js React</Box> 🖥️.
-                        <br/>
-                        Busco uma oportunidade de trabalhar em uma equipe de desenvolvimento de software. Vamos conversar!
+                        <br />
+                        Vamos conversar!
                     </Typography>
                     <Button sx={{ my: 6, width: { xs: '100%', sm: 'auto' } }} variant="contained" color="secondary" size="large" component={Link} href="mailto:marcoscssno@gmail.com">
-                        Entrar em Contato
+                        Enviar mensagem
                     </Button>
                 </Box>
             </Container>
