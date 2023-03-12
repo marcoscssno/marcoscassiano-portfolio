@@ -68,7 +68,7 @@ export default function Navbar() {
                     </Menu>
                 </Box>
                 <Box component="div" sx={{ flexGrow: 1 }}>
-                    <Box component="img" src={logo} alt="Logo" sx={{ height: '40px' }} />
+                    <Box component="img" src={logo} alt="Logo" sx={{ height: '32px' }} />
                 </Box>
                 <Box component="nav" sx={{ display: { xs: 'none', md: 'flex' } }}>
                     {pages.map((page: PageMenuItem) => {

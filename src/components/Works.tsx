@@ -43,12 +43,14 @@ export default function Works() {
                             <Chip label="Socket.io" />
                             <Chip label="Docker" />
                         </Stack>
-                        <Button sx={{ mr: 2, mt: 2 }} variant="contained" size="small" component={Link} href="https://sivic.vercel.app/" target="_blank" endIcon={<PublicIcon />}>
-                            Ver Demo
-                        </Button>
-                        <Button sx={{ mt: 2 }} variant="outlined" size="small" component={Link} href="https://github.com/marcoscssno/sivic" target="_blank" endIcon={<GitHubIcon />}>
-                            Ver Código
-                        </Button>
+                        <Stack direction={{ xs: 'column', md: 'row' }} spacing={1} sx={{ mt: 2 }}>
+                            <Button variant="contained" size="small" component={Link} href="https://sivic.vercel.app/" target="_blank" endIcon={<PublicIcon />}>
+                                Ver Demo
+                            </Button>
+                            <Button variant="outlined" size="small" component={Link} href="https://github.com/marcoscssno/sivic" target="_blank" endIcon={<GitHubIcon />}>
+                                Ver Código
+                            </Button>
+                        </Stack>
                     </Grid>
                 </Grid>
             </Container>

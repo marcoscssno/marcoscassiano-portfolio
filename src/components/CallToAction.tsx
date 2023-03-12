@@ -6,7 +6,9 @@ import Link from '@mui/material/Link';
 
 const containerStyle = {
     backgroundImage: 'linear-gradient(45deg, #00ffea, #00a396)',
-    p: 10,
+    p: {
+        xs: 5, md: 10
+    },
     mt: 5
 }
 
@@ -16,7 +18,7 @@ export default function CallToAction() {
             <Container maxWidth="lg">
                 <Grid container>
                     <Grid item container xs={12} sx={{ justifyContent: 'center' }}>
-                        <Typography variant="h4">
+                        <Typography variant="h4" align="center">
                             Vamos construir algo interessante!
                         </Typography>
                     </Grid>

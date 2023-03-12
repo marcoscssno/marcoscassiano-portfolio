@@ -35,7 +35,7 @@ export default function Front() {
                         component="h2"
                         variant="h2"
                         color="text.primary"
-                        sx={{ fontWeight: 700 }}
+                        sx={{ fontWeight: 700, lineHeight: { xs: 0.9, md: 1.20 } }}
                     >
                         Marcos Cassiano
                     </Typography>
