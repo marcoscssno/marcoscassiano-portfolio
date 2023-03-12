@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Front from './components/Front';
 import About from './components/About';
+import CallToAction from './components/CallToAction';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -26,6 +27,7 @@ function App() {
       <Works />
       <Education />
       <Experience />
+      <CallToAction />
       <Footer />
     </ThemeProvider>
   )
