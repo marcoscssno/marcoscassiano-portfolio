@@ -35,7 +35,7 @@ export default function Works() {
                         <Typography variant="body2" sx={{ mt: 2 }}>
                             Tecnologias utilizadas:
                         </Typography>
-                        <Stack direction="row" spacing={1} sx={{ mt: 2 }}>
+                        <Stack direction={{ xs: 'column', md: 'row' }} spacing={1} sx={{ mt: 2 }}>
                             <Chip label="Next.js" />
                             <Chip label="React" />
                             <Chip label="Redux" />
