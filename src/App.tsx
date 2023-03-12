@@ -2,7 +2,7 @@ import Works from './components/Works';
 import Education from './components/Education';
 import Experience from './components/Experience';
 // import Contact from './components/Contact';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Front from './components/Front';
 import About from './components/About';
 import CallToAction from './components/CallToAction';
@@ -28,7 +28,6 @@ function App() {
       <Education />
       <Experience />
       <CallToAction />
-      <Footer />
     </ThemeProvider>
   )
 }

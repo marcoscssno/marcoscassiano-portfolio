@@ -5,15 +5,14 @@ import Copyright from './Copyright';
 export default function Footer() {
     return (
         <Container
-            maxWidth="md"
+            maxWidth="lg"
             component="footer"
             sx={{
                 borderTop: (theme) => `1px solid ${theme.palette.divider}`,
-                mt: 8,
-                py: [3, 6],
+                py: 3,
             }}
         >
-            <Copyright sx={{ mt: 5 }} />
+            <Copyright />
         </Container>
     )
 }
