@@ -11,8 +11,9 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import { PageMenuItem } from '../types';
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo.svg';
 
+const baseURL: string = import.meta.env.VITE_VERCEL_URL;
 
 export default function Navbar() {
     const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
@@ -68,7 +69,9 @@ export default function Navbar() {
                     </Menu>
                 </Box>
                 <Box component="div" sx={{ flexGrow: 1 }}>
-                    <Box component="img" src={logo} alt="Logo" sx={{ height: '32px' }} />
+                    <Link href={baseURL}>
+                        <Box component="img" src={logo} alt="Logo" sx={{ height: '32px' }} />
+                    </Link>
                 </Box>
                 <Box component="nav" sx={{ display: { xs: 'none', md: 'flex' } }}>
                     {pages.map((page: PageMenuItem) => {
