@@ -34,13 +34,13 @@ export default function About() {
                             Durante meu trabalho como Técnico de Suporte, decidi estudar e criar soluções em software para resolver problemas de registro e gerenciamento de dados, melhorando o trabalho e a produtividade dos usuários.
                         </Typography>
                         <Stack direction={{ xs: 'column', md: 'row' }} justifyContent={{ xs: 'center', md: 'flex-start' }} spacing={2} mt={2}>
-                            <Button variant="contained" color="primary" size="small" startIcon={<LinkedInIcon />} component={Link} href="https://www.linkedin.com/in/marcoscssno/" target="__blank">
+                            <Button variant="contained" color="primary" size="small" startIcon={<LinkedInIcon />} component={Link} href="https://www.linkedin.com/in/marcoscssno/" target="__blank" rel="noopener noreferrer">
                                 LinkedIn
                             </Button>
-                            <Button variant="contained" color="primary" size="small" startIcon={<InstagramIcon />} component={Link} href="https://www.instagram.com/marcoscssno/" target="__blank">
+                            <Button variant="contained" color="primary" size="small" startIcon={<InstagramIcon />} component={Link} href="https://www.instagram.com/marcoscssno/" target="__blank" rel="noopener noreferrer">
                                 Instagram
                             </Button>
-                            <Button variant="contained" color="primary" size="small" startIcon={<FacebookIcon />} component={Link} href="https://www.facebook.com/marcoscssno" target="__blank">
+                            <Button variant="contained" color="primary" size="small" startIcon={<FacebookIcon />} component={Link} href="https://www.facebook.com/marcoscssno" target="__blank" rel="noopener noreferrer">
                                 Facebook
                             </Button>
                         </Stack>
