@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 import { PageMenuItem } from '../types';
 import logo from '../assets/logo.svg';
 
-const baseURL: string = import.meta.env.VITE_VERCEL_URL;
+const baseURL: string = import.meta.env.VITE_BASE_URL;
 
 export default function Navbar() {
     const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
