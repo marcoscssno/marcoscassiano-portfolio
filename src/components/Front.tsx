@@ -19,7 +19,7 @@ const boxStyle = {
 
 export default function Front() {
     return (
-        <Container disableGutters maxWidth="xl" component="main" sx={containerStyle}>
+        <Container disableGutters maxWidth={false} component="main" sx={containerStyle}>
             <Navbar />
             <Container maxWidth="lg">
                 <Box sx={boxStyle}>
