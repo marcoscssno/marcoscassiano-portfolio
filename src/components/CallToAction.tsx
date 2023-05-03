@@ -14,7 +14,7 @@ const containerStyle = {
 
 export default function CallToAction() {
     return (
-        <Container disableGutters maxWidth="xl" component="section" sx={containerStyle}>
+        <Container disableGutters maxWidth={false} component="section" sx={containerStyle}>
             <Container maxWidth="lg">
                 <Grid container>
                     <Grid item container xs={12} sx={{ justifyContent: 'center' }}>
