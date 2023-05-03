@@ -10,6 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import sistemaDeVideoconferencia from '../assets/sistema-de-videoconferencia.png';
+import cleanNodeAPI from '../assets/clean-node-api.png';
 
 export default function Works() {
     return (
@@ -51,6 +52,40 @@ export default function Works() {
                                 Ver Código
                             </Button>
                         </Stack>
+                    </Grid>
+                </Grid>
+            </Container>
+            <Container component="section">
+                <Grid container spacing={{ xs: 2, md: 8 }} sx={{ alignItems: 'center' }}>
+                    <Grid item xs={12} md={6}>
+                        <Typography variant="h4">
+                            Clean Architecture Node.js API
+                        </Typography>
+                        <Typography variant="subtitle2" gutterBottom>
+                            API de usuários
+                        </Typography>
+                        <Typography variant="body2" sx={{ mt: 2 }}>
+                            API construída seguindo os padrões de Clean Architecture, TDD (Test-driven Development), utilizando Node.js, Express, TypeScript.
+                        </Typography>
+                        <Typography variant="body2" sx={{ mt: 2 }}>
+                            Tecnologias utilizadas:
+                        </Typography>
+                        <Stack direction={{ xs: 'column', md: 'row' }} spacing={1} sx={{ mt: 2 }}>
+                            <Chip label="Node.js" />
+                            <Chip label="Express" />
+                            <Chip label="Vite" />
+                            <Chip label="Vitest" />
+                        </Stack>
+                        <Stack direction={{ xs: 'column', md: 'row' }} spacing={1} sx={{ mt: 2 }}>
+                            <Button variant="contained" size="small" component={Link} href="https://github.com/marcoscssno/clean-node-api" target="_blank" endIcon={<GitHubIcon />}>
+                                Ver Código
+                            </Button>
+                        </Stack>
+                    </Grid>
+                    <Grid item xs={12} md={6} sx={{ mt: 8 }}>
+                        <Box component={Link} href="https://github.com/marcoscssno/clean-node-api" target="_blank">
+                            <Box component="img" sx={{ width: '100%', boxShadow: 3, borderRadius: 1 }} alt="sistema de videoconferencia" src={cleanNodeAPI} />
+                        </Box>
                     </Grid>
                 </Grid>
             </Container>
